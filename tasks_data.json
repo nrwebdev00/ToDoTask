@@ -1,0 +1,34 @@
+    [
+        {
+            "model": "Task.task",
+            "pk": 1,
+            "fields": {
+                "title": "First Task",
+                "slug": "first-task",
+                "details": "Details of the first task.",
+                "completed": false,
+                "author": 1, 
+                "publish_date": "2023-01-01T00:00:00Z",
+                "priority": 4,
+                "visibility": "R",
+                "created": "2023-01-01T00:00:00Z",
+                "updated": "2023-01-01T00:00:00Z"
+            }
+        },
+        {
+            "model": "Task.task",
+            "pk": 2,
+            "fields": {
+                "title": "Second Task",
+                "slug": "second-task",
+                "details": "Details of the second task.",
+                "completed": true,
+                "author": 1,
+                "publish_date": "2023-01-02T00:00:00Z",
+                "priority": 2,
+                "visibility": "P",
+                "created": "2023-01-02T00:00:00Z",
+                "updated": "2023-01-02T00:00:00Z"
+            }
+        }
+    ]

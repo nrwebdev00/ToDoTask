@@ -1,0 +1,16 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="{% static "img/fav_icon/fav_icon_001.ico" %}" type="image/x-icon">
+    <link rel="stylesheet" href="{% static "css/main.css" %}">
+    <title>Task App : {{ page_title }}</title>
+</head>
+<body>
+    {% block content %}
+
+    {% endblock %}
+</body>
+</html>
